@@ -16,9 +16,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-
       <Routes>
-        <Route path='/hero' element={<Hero />} />
+        <Route path='/' element={<Hero />} />
         <Route path='/store' element={<Store />} />
         <Route path='/mac' element={<Mac />} />
         <Route path='/iphone' element={<Iphone />} />
