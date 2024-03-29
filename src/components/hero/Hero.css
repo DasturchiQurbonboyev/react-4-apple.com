@@ -1,0 +1,35 @@
+.hero {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    height: 400px;
+    background-position: center;
+    background-image: url("../images/hero/hero_macbook.jpg");
+    background-size: contain;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    padding: 5px 12px;
+    border: none;
+    border-radius: 18px;
+}
+
+.btn__buy {
+    border: 1px solid #0071E3;
+    color: #0071E3;
+    background: transparent;
+}
+
+.btn__buy:hover {
+    background: #0071E3;
+    color: white;
+}
+
+.btn__learn {
+    background: #0071E3;
+    color: white;
+}
